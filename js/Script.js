@@ -1,5 +1,3 @@
-
-
 function addtext()
           {
               DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
