@@ -1,14 +1,27 @@
-function addtext()
-          {
-              DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
-             var fname = document.myform.first_name.value;
-             var lname = document.myform.last_name.value;
-             var email = document.myform.email.value;
-
-             document.writeln("Thank you! You are registered with the following details:");
-             document.writeln("<pre>");
-             document.writeln("First Name    : " + fname);
-             document.writeln("Last Name     : " + lname);
-             document.writeln("Email Address : " + email);
-       }
-  
+// When the browser is ready...
+  $(function() {
+    // validate
+    $("#contact").validate({
+        // Set the validation rules
+        rules: {
+            name: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            message: "required",
+        },
+        // Specify the validation error messages
+        messages: {
+            name: "Please enter your name",
+            email: "Please enter a valid email address",
+            message: "Please enter a message",
+        },
+        // submit handler
+        submitHandler: function(form) {
+          //form.submit();
+           $(".message").show();
+           $(".message").fadeOut(4500);
+        }
+    });
+  });
