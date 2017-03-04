@@ -33,7 +33,7 @@
 
     -->
 
-<form action="#" method="post" name="form_name" id="form_id" class="form_class" >
+<form action="#null" id="contact" method="get" name="contact">
 
     <input type="text" name="name" id = "name" placeholder="Name" required/>
     <input  type="email" name="email" id="email" placeholder="Email" required/>
@@ -42,20 +42,15 @@
     <button id="submit" onclick="checkAll();" type="submit">
             Submit!
     </button>
-     
-
-    <button name="submit_tag" id="btn_tag" value="Submit by Tag" onclick="submit_by_tag()">
-        </button>
-
-
+ 
 </form>
+         <p id="approved"></p>
+  <p id="age1"></p>
 </section>
-
-      <p id="approvedx"></p>
-  <p id="agex"></p>
+   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
   </script> 
-  <script src="js/site.js">
+  <script src="js/script.js">
   </script>
     
 </body>
