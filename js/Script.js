@@ -22,7 +22,8 @@ function checkAll() {
           $('input[type="text"], textarea').val('');
          $('input[type="email"], textarea').val('');
          
-	   }   
+	   }    
+
 }
 
 
