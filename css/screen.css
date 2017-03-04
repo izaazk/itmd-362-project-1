@@ -11,18 +11,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
     text-align: center;
-     padding: 3.3375% 3.4375%; /* 22px /2 = 11px 11/320=0.034375 */ 
+    padding: 3% 3%; 
     background-image:url('../img/bg.jpg');
-     background-repeat:repeat;
+    background-repeat:repeat;
     background-size:cover;
 }
 
-
-ol{
- text-align: center;
- padding: 0 .6em;
- position: relative;
-}
 
 
 #header img {
@@ -35,14 +29,12 @@ ol{
 h1{
  font-family: times, Times New Roman, times-roman, georgia, serif;
  font-size: 2.4em;
- line-height: 40px;
+ line-height: 1.2em;
  color:  #ff0000;
- margin: 0 0 0 0;
- padding: 0 0 0 0;
-                font-weight: 100;
+ font-weight: 100;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 62.5em) {
 
    h1 {
       font-size: 1.5em;
@@ -58,7 +50,7 @@ h1{
 
 
 #page-wrap {
-    margin: 60px auto; width: auto; height: auto;  padding: 50px; -moz-box-shadow: 0 0 20px #3fa1ff; -webkit-box-shadow: 0 0 20px #3fa1ff; box-shadow: 0 0 20px #3fa1ff; text-align: center;
+    margin: 3.75em auto; width: auto; height: auto;  padding: 3.125em; -moz-box-shadow: 0 0 1.25em #3fa1ff; -webkit-box-shadow: 0 0 1.25em #3fa1ff; box-shadow: 0 0 1.25em #3fa1ff; text-align: center;
     
     
 }
@@ -81,14 +73,14 @@ h1{
   max-width:100%;
   margin:0 auto;
   text-align:center;
-  -webkit-border-radius:6px;
-  -moz-border-radius:6px;
-  border-radius:6px;
+  -webkit-border-radius:0.375em;
+  -moz-border-radius:0.375em;
+  border-radius:0.375em;
 }
 .head {
-  -webkit-border-radius:6px 6px 0px 0px;
-  -moz-border-radius:6px 6px 0px 0px;
-  border-radius:6px 6px 0px 0px;
+  -webkit-border-radius:0.375em 0.375em 0em 0em;
+  -moz-border-radius:0.375em 0.375em 0em 0em;
+  border-radius:0.375em 0.375em 0em 0em;
   background-color:#3fa1ff;
   color: white;
 }
@@ -96,28 +88,28 @@ h2 {
   font-size: 1.7em;
 }
 input {
-  margin-bottom:10px;
+  margin-bottom:0.625em;
 }
 textarea {
-  height:100px;
-  margin-bottom:10px;
+  height:6.25em;
+  margin-bottom:0.625em;
 }
 input:first-of-type
 {
-  margin-top:35px;
+  margin-top:2.1875em;
 }
 input, textarea {
   font-size: 1.5em;
-  padding: 15px 10px 10px;
+  padding: 0.9375em 0.625em 0.625em;
   font-family: 'Source Sans Pro',arial,sans-serif;
-  border: 2px solid #3fa1ff;
+  border: 0.125em solid #3fa1ff;
   opacity: 0.5;
   background: black;
   text-align: center;
   color:  #0014ff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  border-radius: 0.3125em;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -125,7 +117,7 @@ input, textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 80%;
-  max-width: 900px;
+  max-width: 56.25em;
   display: inline-block;
 }
 
@@ -142,16 +134,16 @@ input, textarea {
    color: #fff;  
 }
 button {
-  margin-top:15px;
-  margin-bottom:25px;
+  margin-top:0.9375em;
+  margin-bottom:1.5625em;
   margin-left:auto;
     margin-right:auto;
   background-color:#2ABCA7;
   text-align: center;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #2ABCA7;
+  -ms-border-radius: 0.3125em;
+  -o-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+  border: 0.0625em solid #2ABCA7;
   -webkit-transition: .5s;
   transition: .5s;
   display: block;
@@ -164,7 +156,7 @@ button:hover, .button:hover {
   background:#19a08c;
 }
 /* media queries */
-@media (max-width: 700px) {
+@media (max-width: 43.75em) {
 
   input, textarea {
     width: 70%;
@@ -175,7 +167,7 @@ button:hover, .button:hover {
     display: block;
   }
   body {
-  padding-top:3px;
+  padding-top:0.1875em;
   } 
 
     h2 {
@@ -187,13 +179,13 @@ button:hover, .button:hover {
     font-family:'Source Sans Pro',arial,sans-serif;
     font-size:1.1em;
     display:inline-block;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:0.625em;
+    padding-bottom:0.625em;
     background-color:#2ABCA7;
     width: 80%;
     margin:auto;
     color: #FAFAFA;
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
+    -webkit-border-radius:0.375em;
+    -moz-border-radius:0.375em;
+    border-radius:0.375em;
 }
